@@ -22,3 +22,40 @@ const myHobbies = {
 }
 console.table([fullName,age,is_fullName_student,myFavColors,myHobbies])
 ```
+
+## Problem 2
+#### Create a program to demonstrate the usage of let, var, and const for variable declaration in JavaScript. The program should also show examples of different data types such as string, number, boolean, array, and object.
+#### Declare a const variable to store your favorite movie title as a string.
+#### Use let to declare a variable for your current age and update it to reflect a birthday.
+#### Use var to declare a boolean variable indicating if you own a car. Update its value later.
+#### Create an array to store names of three friends.
+#### Create an object to represent a book with properties like title, author, and pages.
+
+```
+const favMovie = "3 Idiots"
+console.log(`my favourite movie is ${favMovie}`);
+
+let myAge = 27
+console.log(`i am about ${myAge} years old`);
+
+let updateAge = myAge + 1
+console.log(`my updated age is ${updateAge}`);
+
+var ownCar = false
+ownCar = true
+console.log(`i have a car? ${ownCar}`);
+
+myFriends = ['hamza', 'zeeshan', 'mashood']
+console.log(`the name of my friends are ${myFriends}`);
+
+const bookInfo = {
+    bookName: "Rich Dad, Poor Dad",
+    bookAuthor: "Robert Noski",
+    bookPages: 400
+}
+console.log(bookInfo);
+console.log(`the name of my fav book is ${bookInfo.bookName}`);
+console.log(`the name of my fav author is ${bookInfo.bookAuthor}`);
+console.log(`the total pages of my book is ${bookInfo.bookPages}`);
+
+```
